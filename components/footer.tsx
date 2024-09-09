@@ -11,7 +11,7 @@ export default function Footer() {
         >
           <Image
             aria-hidden
-            src="/github-icon/github-mark-white.svg"
+            src="/github-icon/github-mark.svg"
             alt="Github icon"
             width={16}
             height={16}
