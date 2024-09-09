@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function Footer() {
   return (
     <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
@@ -7,6 +9,13 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
+          <Image
+            aria-hidden
+            src="/github-icon/github-mark-white.svg"
+            alt="Github icon"
+            width={16}
+            height={16}
+          />
           Made by Zhaka Hidayat
         </a>
       </footer>
