@@ -19,5 +19,5 @@ export default function Footer() {
           Made by Zhaka Hidayat
         </a>
       </footer>
-  )
+  );
 }
