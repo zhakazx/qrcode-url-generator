@@ -1,4 +1,3 @@
-import { Label } from "@radix-ui/react-label";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 
@@ -8,6 +7,7 @@ export default function Main() {
         <div className="grid w-full max-w-sm items-center gap-1.5">
           
         </div>
+
     </main>
   );
 }
