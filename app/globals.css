@@ -64,5 +64,9 @@
   }
   body {
     @apply bg-background text-foreground;
+    background-image: url('/circular-pattern.jpg');
+    background-size: cover; /* Adjust size (cover, contain, etc.) */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat; /* Prevent repetition */
   }
 }
